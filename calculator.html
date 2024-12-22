@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="claculator.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="calculator-display"><p class="js-answer"></p></div>
+      <div class="claculator-content">
+        <div class="row-div">
+          <div><button onclick="readingPart('1');">1</button></div>
+          <div><button onclick="readingPart('2');">2</button></div>
+          <div><button onclick="readingPart('3');">3</button></div>
+          <div>
+            <button class="oparetor" onclick="readingPart('+');">+</button>
+          </div>
+        </div>
+        <div class="row-div">
+          <div><button onclick="readingPart('4');">4</button></div>
+          <div><button onclick="readingPart('5');">5</button></div>
+          <div><button onclick="readingPart('6');">6</button></div>
+          <div>
+            <button class="oparetor" onclick="readingPart('-');">-</button>
+          </div>
+        </div>
+        <div class="row-div">
+          <div><button onclick="readingPart('7');">7</button></div>
+          <div><button onclick="readingPart('8');">8</button></div>
+          <div><button onclick="readingPart('9');">9</button></div>
+          <div>
+            <button class="oparetor" onclick="readingPart('*');">*</button>
+          </div>
+        </div>
+        <div class="row-div">
+          <div><button onclick="readingPart('0');">0</button></div>
+          <div><button onclick="readingPart('.');">.</button></div>
+          <div>
+            <button onclick="readingPart('=');">=</button>
+          </div>
+          <div>
+            <button class="oparetor" onclick="readingPart('/');">/</button>
+          </div>
+        </div>
+        <div class="row-div">
+          <div>
+            <button class="clear" onclick="readingPart('clear');">Clear</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="calculator.js"></script>
+  </body>
+</html>

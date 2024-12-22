@@ -1,0 +1,44 @@
+body{
+  background-color: black;
+}
+.calculator{
+  display: flex;
+  flex-direction: column;
+}
+.calculator-content{
+  display: flex;
+  flex-direction: column;
+}
+.row-div{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+button{
+  background-color: rgb(84, 83, 83);
+  color: white;
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  margin: 10px;
+  border: none;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.oparetor{
+  background-color: rgb(255, 162, 0);
+}
+.clear{
+  font-size: 25px;
+}
+p{
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.js-answer{
+  font-size: 48px;
+  margin: 20px;
+}
